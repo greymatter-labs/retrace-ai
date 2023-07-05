@@ -1,6 +1,6 @@
 # Retrace
 
-Retrace is an open-source application that allows you to search everything you've ever done on your computer.
+Retrace is an open-source Mac application that allows you to search everything you've ever done on your computer.
 
 ## Features
 
