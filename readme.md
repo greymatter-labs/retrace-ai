@@ -10,20 +10,6 @@ Retrace is an open-source Mac application that allows you to search everything y
 - **Natural Language Description**: Retrace prompts an AI model to generate natural language descriptions of the detected activities for better understanding.
 - **User Interface**: Retrace provides a simple user interface where you can search for a specific activity description.
 
-## Dependencies
-
-Retrace depends on the following libraries:
-
-- PIL: Python Imaging Library for capturing and processing screenshots.
-- PyAutoGUI: Provides cross-platform capabilities to control the mouse and keyboard, required for taking screenshots.
-- Quartz: Enables interaction with the Mac operating system and working with images.
-- Vision: Provides powerful image analysis capabilities on macOS.
-- ChromaDB: A database library for managing and querying activity data.
-- Anthropyc: An AI-powered library for generating natural language descriptions.
-- PyScreeze: Enables capturing screenshots in a cross-platform manner.
-- DearPyGUI: A modern GUI framework for creating user interfaces.
-- pynput: Allows detecting and interacting with keyboard events.
-
 ## Installation
 
 To install the required dependencies, run the following command:
@@ -44,16 +30,12 @@ python retrace.py
 
 3. Use the provided user interface to search for specific activity descriptions.
 
-4. Retrace will retrieve the corresponding file paths, allowing you to view the saved information easily.
+4. Press `command + tab` to switch out of search and click the minimized window to switch in.
 
-5. Press the "Quit" button or the escape key to stop the application.
+5. Press the escape key to stop the application.
 
-## Configuration
-
-You can modify the following settings in the code (retrace.py) to customize the behavior of the application:
-
-- `max_tokens_to_sample`: The maximum number of tokens to sample when generating natural language descriptions. Adjust this value based on your desired description length.
-- `persist_directory`: The directory where ChromaDB will store the activity data. By default, it is set to a folder named "chroma" in the current directory.
+## Roadmap
+Use a compressed video instead of images.
 
 ## Contributions
 
